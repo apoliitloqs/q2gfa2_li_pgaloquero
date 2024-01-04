@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+    width: 100vw;
+    height: 100vw;
+    display: block;
+}
+
+
+
+article{
+    font-family: 'Martian Mono', monospace;
+    color: white;
+    text-align: center;
+}
+
+.planet{
+    display: inline-block;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+#planet{
+    background: url(../media/images/planet.gif);
+    width: 180px;
+    height: 180px;
+    transform: translate(30vw, 50vh);
+    transition: 45s;
+}
+
